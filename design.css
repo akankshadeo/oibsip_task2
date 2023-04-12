@@ -1,0 +1,206 @@
+.top {
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+
+}
+
+.middle {
+  background-color: #ECC5FB;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.bottom {
+  background-color: #ECC5FB ;
+  text-align: center;
+}
+
+body {
+  margin:0;
+  background-color: #ECC5FB;
+  font-family: 'Merriweather', serif;
+}
+
+.text {
+  height: 180px;
+  width: 330px;
+  position: absolute;
+  left : 880px;
+  top : 420px;
+  border: solid;
+  border-width: medium;
+}
+
+.photo {
+  height: 450px;
+  position: absolute;
+  left: 400px;
+  border: solid;
+  border-width: medium;
+}
+
+/* .blue {
+  height : 150px;
+  position: absolute;
+  left: 930px;
+  top : 270px;
+}
+
+.ring {
+  height : 200px;
+  position: absolute;
+  left : 250px;
+  top : 150px;
+}
+
+.green {
+  height : 100px;
+  width : 500px;
+  position: absolute;
+  top : 80px;
+  left : 500px;
+}
+
+.crisscross  {
+  height : 9.375rem;
+  position: absolute;
+  left: 18.75rem;
+  top : 29.375rem;
+}
+
+.flower {
+  height : 80px;
+  position: absolute;
+  left: 360px;
+  top : 500px;
+}
+
+.oval {
+  height : 300px;
+  position: absolute;
+  left : 700px;
+  top : 450px;
+} */
+
+.avatar {
+  height : 12.5rem;
+  padding-top: 1.875rem;
+  /*float :left;*/
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  border-width: 5px;
+  width: 5%;
+  margin : 100px auto;
+}
+
+h2 {
+  font-family: 'Sacramento',cursive;
+  font-size: 3.125rem;
+  font-weight: bold;
+}
+
+.profile
+{
+  padding-bottom: 15px;
+  width : 50%;
+  margin : auto;
+  line-height: 40px;
+}
+
+.skill {
+  height : 31.25rem;
+  width : 43.75rem;
+  text-align: center;
+  /* width : 55%;
+  height : auto; */
+}
+
+.edu {
+  height : 31.25rem;
+  width : 56.25rem;
+  background-size: auto;
+  /* width : 65%;
+  height : auto; */
+}
+
+.main {
+  width : 65%;
+  height : auto;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.btn {
+  background: #C060A1;
+  background-image: -webkit-linear-gradient(top, #C060A1, #C060A1);
+  background-image: -moz-linear-gradient(top, #C060A1, #C060A1);
+  background-image: -ms-linear-gradient(top, #C060A1, #C060A1);
+  background-image: -o-linear-gradient(top, #C060A1, #C060A1);
+  background-image: linear-gradient(to bottom, #C060A1, #C060A1);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: 'Merriweather', serif;
+  color: #050505;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b93cfc;
+  background-image: -webkit-linear-gradient(top, #b93cfc, #b93cfc);
+  background-image: -moz-linear-gradient(top, #b93cfc, #b93cfc);
+  background-image: -ms-linear-gradient(top, #b93cfc, #b93cfc);
+  background-image: -o-linear-gradient(top, #b93cfc, #b93cfc);
+  background-image: linear-gradient(to bottom, #b93cfc, #b93cfc);
+  text-decoration: none;
+}
+
+.msg
+{
+  width : 40%;
+  margin : 40px auto 60px;
+}
+a {
+  color : #050505;
+  font-family: 'Merriweather', serif;
+  margin : 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b93cfc;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  margin: 30px auto;
+}
+
+
+@media (max-width : 1028px) {
+  .skill {
+    height : 300px;
+    width : 400px;
+  }
+
+  .edu {
+    height : 300px;
+    width : 450px;
+    background-size: auto;
+  }
+
+  .main {
+    height : 300px;
+    width : 500px;
+  }
+}
